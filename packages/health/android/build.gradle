@@ -26,6 +26,10 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 34
+    compileOptions {
+        sourceCompatibility = 17
+        targetCompatibility = 17
+    }
 
     namespace "cachet.plugins.health"
 
